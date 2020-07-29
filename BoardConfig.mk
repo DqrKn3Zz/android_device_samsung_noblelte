@@ -32,6 +32,10 @@ TARGET_OTA_ASSERT_DEVICE := noblelte,nobleltedd,nobleltedv,nobleltejv,nobleltekt
 # Include path
 TARGET_SPECIFIC_HEADER_PATH += device/samsung/noblelte/include
 
+# Init
+TARGET_INIT_VENDOR_LIB := libinit_noblelte
+TARGET_UNIFIED_DEVICE := true
+
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_noblelte_defconfig
 
