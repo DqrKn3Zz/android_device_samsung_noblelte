@@ -30,8 +30,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/noblelte/device.mk)
 
 # Inherit some common Resurrection Remix stuff.
-#RR_BUILDTYPE := Official
-#TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1440
 $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
